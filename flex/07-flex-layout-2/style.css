@@ -26,3 +26,53 @@ body {
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
 }
+
+
+/* Beo's solution */
+
+a, a:hover, a:focus, a:active {
+  text-decoration: none;
+  color: inherit;
+}
+.header{
+  display: flex;
+  font-weight: 900;
+  font-size: 32px;
+  align-items: center;
+  padding-left: 16px;
+}
+body{
+  display: flex;
+  flex-direction: column;
+}
+.content{
+  display:flex;
+  flex: 1;
+}
+.footer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.sidebar{
+  width: 300px;
+  flex-shrink: 0;
+}
+li{
+  list-style: none;
+  font-size: 24px;
+  color: white;
+  padding: 16px 0px;
+}
+.info{
+  padding: 20px;
+  flex:1;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap:40px;
+}
+
+.card{
+  width: 200px;
+}
